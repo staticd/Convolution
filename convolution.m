@@ -1,5 +1,5 @@
 %
-%   Author: Natt Day
+%   Author: ncd 
 %   Version: 0.1.0
 %   Description:
 %   -computes and displays convolution of two functions x and h
@@ -57,7 +57,7 @@ hit = 0;
 
 for i = 1:length(y);
    if y(i) > 0 && hit == 0;
-       disp([num2str(t_y(i)),' is lower limit']);
+       disp([num2str(t_y(i)),' is the lower limit']);
        hit = 1;
    end
    if y(i) == 0 && hit == 1;
